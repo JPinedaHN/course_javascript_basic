@@ -32,3 +32,12 @@ function saludarEstudiante(estudiante){
 saludarEstudiante("Pedro") // Imprime: Hola Pedro
 
 
+//una función que retorna un valor
+
+function suma2(a, b) {
+  var sum = a + b; // asignamos el valor de la suma de a + b a sum
+  return sum; // retornamos el valor que contiene sum
+}
+
+suma2(10, 10); //obtenemos el valor de 10 + 10 que es 20
+
