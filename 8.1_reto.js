@@ -16,8 +16,8 @@ function compare(user, cpu){
   }
 }
 
-compare("TIJERA", "PAPEL");
-compare("PAPEL", "PIEDRA");
-compare("TIJERA", "PIEDRA");
-compare("PIEDRA", "PAPEL");
-compare("PIEDRA", "PIEDRA");
+compare("TIJERA", "PAPEL"); // GANASTE TIJERA gana a PAPEL
+compare("PAPEL", "PIEDRA"); // GANASTE PAPEL gana a PIEDRA
+compare("TIJERA", "PIEDRA"); // PERDISTE, PIEDRA GANA a TIJERA
+compare("PIEDRA", "PAPEL"); // PERDISTE, PAPEL GANA a PIEDRA
+compare("PIEDRA", "PIEDRA"); // PIEDRA empata a PIEDRA, intenta de nuevo
